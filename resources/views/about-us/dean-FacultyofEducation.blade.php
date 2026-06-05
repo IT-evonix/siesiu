@@ -27,7 +27,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 pt-5 pb-5" style="line-height: normal;">
+                <div class="col-lg-8 pt-md-5 pt-2 pb-5" style="line-height: normal;">
                     <div class="row">
                         <div class="col-lg-12 mb-4">
                             <div style="padding: 20px 30px;border-radius: 20px;font-size: 18px; color:#c4161c">
