@@ -28,31 +28,31 @@
                             <div class="col-lg-12"><div class="heading pb-1">Address:</div></div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12 mb-5">
+                            <div class="col-lg-12 mb-4 mb-sm-5">
                                 Plot No. 470/1 & 2, CTS No. 1089/1 & 2, Richardson Rd, Opposite Chittaranjan Vatika Hare Krishna Ma, Model Colony, Shivajinagar, Pune, Maharashtra 411016
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <div class="row">
-                                    <div class="col-lg-12"><div class="heading pb-3">Email ID:</div></div>
+                                    <div class="col-lg-12"><div class="heading pb-2 pb-sm-3">Email ID:</div></div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <a href="mailto:info_sie@siu.edu.in">
+                                        <a class="contactinfo" href="mailto:info_sie@siu.edu.in">
                                             <div class="icon"><img src="{{ asset('assets/images/email.webp') }}" class="img-fluid"></div>
                                             <span>info_sie@siu.edu.in</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <div class="row">
-                                    <div class="col-lg-12"><div class="heading pb-3">Contact No:</div></div>
+                                    <div class="col-lg-12"><div class="heading pb-2 pb-sm-3">Contact No:</div></div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <a href="tel:+91-7391086788">
+                                        <a class="contactinfo" href="tel:+91-7391086788">
                                             <div class="icon"><img src="{{ asset('assets/images/call.webp') }}" class="img-fluid"></div>
                                             <span>+91-7391086788</span>
                                         </a>

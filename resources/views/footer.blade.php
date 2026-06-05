@@ -81,7 +81,8 @@
         <div class="footer-bottom">
             <p>© 2026 Symbiosis Institute of Education. All rights reserved.</p>
             <div class="crafted_by">
-                Crafted By <a target="_blank" href="https://www.evonix.co/"><img src="{{ asset('assets/images/logo-new.webp') }}" alt=""></a>
+                Crafted By <a target="_blank" href="https://www.evonix.co/"><img
+                        src="{{ asset('assets/images/logo-new.webp') }}" alt=""></a>
             </div>
         </div>
     </div>
@@ -94,3 +95,53 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 <script src="{{asset('assets/js/script.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+
+<script>
+    function eventMobileSlider() {
+
+        $('.mobile-event-slider').each(function () {
+
+            if ($(window).width() < 992) {
+
+                $(this).addClass('owl-carousel');
+
+                if (!$(this).hasClass('owl-loaded')) {
+                    $(this).owlCarousel({
+                        items: 1,
+                        loop: true,
+                        margin: 10,
+                        nav: false,
+                        dots: true,
+                        autoplay: true,
+                        autoplayTimeout: 3000,
+                        autoplayHoverPause: true,
+                        autoHeight: true
+                    });
+                }
+
+            } else {
+
+                if ($(this).hasClass('owl-loaded')) {
+                    $(this).trigger('destroy.owl.carousel');
+                    $(this).removeClass('owl-carousel owl-loaded');
+                    $(this).find('.owl-stage-outer').children().unwrap();
+                }
+
+            }
+
+        });
+
+    }
+
+    $(document).ready(function () {
+        eventMobileSlider();
+    });
+
+    $(window).resize(function () {
+        eventMobileSlider();
+    });
+</script>

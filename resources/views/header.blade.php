@@ -105,7 +105,7 @@
                         </ul>
                     </li>
                     <li><a href="{{url('/life-at-sie')}}">Life at SIE</a></li>
-                    <li><a href="{{url('/')}}">Events </a></li>
+                    <li><a href="{{url('/events')}}">Events </a></li>
                     <li><a href="{{url('/contact-us')}}">Contact us </a></li>
                 </ul>
             </nav>

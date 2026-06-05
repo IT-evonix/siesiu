@@ -21,17 +21,14 @@ Route::get('clear-cache', function () {
     Artisan::call('route:clear');
     return "Cache is cleared";
 });
-
 Route::get('/', function () {
     $data_arr = array();
-    $data_arr['title'] = "K-Drive | Homepage";
-    $data_arr['keywords'] = "K-Drive";
-    $data_arr['description'] = "K-Drive";
+    $data_arr['title'] = "SIE | Homepage";
+    $data_arr['keywords'] = "SIE";
+    $data_arr['description'] = "SIE";
     $data_arr['canonical'] = "";
     return view('index', ['data_arr' => $data_arr]);
 });
-
-
 // -----ABOUT-US-START
 Route::get('/our-legacy', function () {
     $data_arr = array();
@@ -41,7 +38,6 @@ Route::get('/our-legacy', function () {
     $data_arr['canonical'] = "";
     return view('about-us.our-legacy', ['data_arr' => $data_arr]);
 });
-
 Route::get('/about-siu', function () {
     $data_arr = array();
     $data_arr['title'] = "About SIU";
@@ -50,7 +46,6 @@ Route::get('/about-siu', function () {
     $data_arr['canonical'] = "";
     return view('about-us.about-siu', ['data_arr' => $data_arr]);
 });
-
 Route::get('/about-institute', function () {
     $data_arr = array();
     $data_arr['title'] = "About Institute";
@@ -59,11 +54,10 @@ Route::get('/about-institute', function () {
     $data_arr['canonical'] = "";
     return view('about-us.about-institute', ['data_arr' => $data_arr]);
 });
-
 Route::get('/about-sie', function () {
     $data_arr = array();
-    $data_arr['title'] = "About Institute";
-    $data_arr['keywords'] = "About Institute";
+    $data_arr['title'] = "About SIE";
+    $data_arr['keywords'] = "About SIE";
     $data_arr['description'] = "Symbiosis Institute of Education (SIE)";
     $data_arr['canonical'] = "";
     return view('about-us.about-sie', ['data_arr' => $data_arr]);
@@ -108,7 +102,6 @@ Route::get('/director-SIE', function () {
     $data_arr['canonical'] = "";
     return view('about-us/director-SIE', ['data_arr' => $data_arr]);
 });
-
 Route::get('/faculty-member', function () {
     $data_arr = array();
     $data_arr['title'] = "Faculty Member";
@@ -117,20 +110,22 @@ Route::get('/faculty-member', function () {
     $data_arr['canonical'] = "";
     return view('about-us/faculty-member', ['data_arr' => $data_arr]);
 });
-// -----ABOUT-US-END
-
 Route::get('/life-at-sie', function () {
     $data_arr = array();
-    $data_arr['title'] = "About Institute";
-    $data_arr['keywords'] = "About Institute";
+    $data_arr['title'] = "Life at SIE";
+    $data_arr['keywords'] = "Life at SIE";
     $data_arr['description'] = "Symbiosis Institute of Education (SIE)";
     $data_arr['canonical'] = "";
     return view('life-at-sie', ['data_arr' => $data_arr]);
 });
-
-
-    
-
+Route::get('/events', function () {
+    $data_arr = array();
+    $data_arr['title'] = "Event";
+    $data_arr['keywords'] = "Event";
+    $data_arr['description'] = "Symbiosis Institute of Education (SIE)";
+    $data_arr['canonical'] = "";
+    return view('events', ['data_arr' => $data_arr]);
+});
 Route::get('/contact-us', function () {
     $data_arr = array();
     $data_arr['title'] = "Contact Us";
