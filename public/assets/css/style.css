@@ -1453,6 +1453,7 @@ button {
     border-radius: 20px;
     background-color: #c4161c0a;
     margin-top: 60px;
+    scroll-margin-top: 120px;
 }
 /* Events Page End Here  */
 /* --------------------Inner Pages End Here-------------- */

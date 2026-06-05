@@ -15,7 +15,7 @@
                         <a href="{{url('/')}}">Program</a>
                     </li>
                     <li>
-                        <a href="{{url('/')}}">Events</a>
+                        <a href="{{url('/events')}}">Events</a>
                     </li>
                     <li>
                         <a href="{{url('/contact-us')}}">Contact us</a>
@@ -27,7 +27,7 @@
                 <h3 class="footer-title">Quick Links</h3>
                 <ul class="quick-links m-0 p-0">
                     <li>
-                        <a target="_blank" href="https://www.siu.edu.in/">
+                        <a href="{{url('/about-siu')}}">
                             SIU
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </a>

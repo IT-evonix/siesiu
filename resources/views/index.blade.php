@@ -196,7 +196,7 @@
                                         In February 2026, PhD scholars from the Faculty of Education, as part of their coursework, participated in an experiential learning visit focused on early childhood education. The scholars interacted with faculty members to gain insights into innovative teaching practices, child-centric curricula, and the various learning tools and activities designed to promote joyful and engaging learning experiences for children.
                                     </div>
                                     <div class="col-lg-12 mb-3">
-                                        <a href="#">View More</a>
+                                        <a href="{{url('/events#event8')}}">View More</a>
                                     </div>
                                 </div>
                             </div>                            
@@ -220,7 +220,7 @@
                                         Professors and interns from University of Melbourne, Australia visited the institute to understand the child-centric teaching practices adopted in early childhood education, with a special focus on foundational cognitive, social, emotional, and creative development among children.
                                     </div>
                                     <div class="col-lg-12 mb-3">
-                                        <a href="#">View More</a>
+                                        <a href="{{url('/events#event9')}}">View More</a>
                                     </div>
                                 </div>
                             </div>                            
@@ -243,7 +243,7 @@
                                         Teacher trainees conducted interactive and engaging classroom sessions for young children as part of their practical learning experience, using storytelling, rhymes, role-play, and activity-based teaching methods to create a joyful and child-centric learning environment." 
                                     </div>
                                     <div class="col-lg-12 mb-3">
-                                        <a href="#">View More</a>
+                                        <a href="{{url('/events#event10')}}">View More</a>
                                     </div>
                                 </div>
                             </div>                            

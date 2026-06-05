@@ -55,7 +55,7 @@
                         </a>
                         <ul class="submenu">
                             <li><a href="{{url('/our-legacy')}}">Our Legacy</a></li>
-                            <li><a git branch -ahref="{{url('/about-siu')}}">About SIU</a></li>
+                            <li><a href="{{url('/about-siu')}}">About SIU</a></li>
                             <li><a href="{{url('/about-sie')}}">About SIE</a></li>
                             <li class="has-submenu">
                                 <a href="#">
